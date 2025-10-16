@@ -56,3 +56,18 @@ The **Singleton Pattern** ensures that each movie has only **one instance shared
 ---
 
 ## 🏗️ Architecture Flow
+      +---------------------+
+      |   BookMyShow (Bmys) |
+      +---------------------+
+                |
+                v
+        +-----------------+
+        |  Singleton Obj  |
+        |   (Movie1/2/3)  |
+        +-----------------+
+                ^
+                |
+      +---------------------+
+      |     PayTM (payTM)  |
+      +---------------------+
+
